@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-class-to-json",
+  "version": "1.0.0",
+  "description": "Generates json file which has all tailwindcss's utility classes",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css": "^3.0.0",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/css": "^0.0.33",
+    "typescript": "^5.1.6"
+  }
+}
