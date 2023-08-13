@@ -1,3 +1,5 @@
+Generated json file will be located in `out` directory.
+
 ## NPM Scripts
 
 `npm install`: install dependencies
