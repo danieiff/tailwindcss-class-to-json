@@ -1,13 +1,23 @@
+## Notes
+
+Logics are in `index.ts`.
+
+Let tailwindcss and postcss generate all css by specifying `safelist: [{ pattern: /./ }]` in config of tailwindcss.
+
+> Refer https://github.com/tailwindlabs/tailwindcss/discussions/8147#discussioncomment-2590112
+
 Generated json file will be located in `out` directory.
 
-## NPM Scripts
+## Usage
 
-`npm install`: install dependencies
+1. `npm install`: install dependencies
 
-`npm run build`: builds main index.js
+2. `npm run build`: builds main index.js
 
-`npm run generate`: generates json file
+3. `npm run generate`: generates json file
 
 ---
 
-\*supports deno (`deno run index.ts`)
+or
+
+\*supports deno: `deno run index.ts` (oneshot!)
