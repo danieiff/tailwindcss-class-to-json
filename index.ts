@@ -35,7 +35,7 @@ postcss(tailwindcssPlugin)
     })
 
     fs.writeFileSync(
-      'tailwindcss-class-properties.json',
+      'out/tailwindcss-class-properties.json',
       JSON.stringify(classMap, null, 2)
     )
   })
